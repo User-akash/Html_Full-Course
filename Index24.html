@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html -Form SignUp</title>
+</head>
+<body style="background-color: cadetblue;">
+    <pre><h3 style="text-align: center; margin-top: 20px; font-size: 25px;">SignUp Page</h3></pre>
+    <div style="background-color: whitesmoke; border-radius: 5px; padding: 1px; width: 21%; margin-left: 40%;" class="site">
+        <div style="margin-left: 3%; margin-top: 1px;" class="container">
+            <form action="">
+                username:<br>
+                <input type="text" name="username" required><br>
+                password:<br>
+                <input type="password" name="password" required><br>
+                repasswd:<br>
+                <input type="password" name="repasswd" required><br><br>
+                Gender:
+                <input type="radio" name="male" value="male">Male</input>
+                <input type="radio" name="female" value="female">Female</input>
+                <input type="radio" name="other" value="other">Other</input><br><br>
+                <select style="width: 20%; margin-bottom: 8px;" name="Questions" id="">
+                    Security Question:
+                    <option value="What's your new name?">What's Your Name?</option>
+                    <option value="Fisrt Questions">What's Your Father Name?</option>
+                    <option value="Fisrt Questions">What's Your Mother Name?</option>
+                    <option value="Fisrt Questions">What's Your Proffesion Name?</option>
+                    <option value="Fisrt Questions">What's Your Reality Name?</option>
+                </select><br>
+                <textarea style="margin-bottom: 30px;" name="answare" id="" cols="30" rows="6"></textarea><br>
+                <input type="checkbox" name="controller">Access Denied or Granted! <br>
+                <input type="submit" value="ReLogging">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

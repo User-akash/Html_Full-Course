@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html -Id Attribute</title>
+</head>
+<body>
+    <div>
+        <ul type="none">
+            <li><a href="Index11.html#scroll">Modify</li></a>
+            <li><a href="Index11.html#Down">Verify</a></li>
+        </ul>
+    </div>
+
+    <div>
+        <pre><p>
+            struct group_info init_groups = { .usage = ATOMIC_INIT(2) };
+struct group_info *groups_alloc(int gidsetsize){
+	struct group_info *group_info;
+	int nblocks;
+	int i;
+	nblocks = (gidsetsize + NGROUPS_PER_BLOCK - 1) / NGROUPS_PER_BLOCK;
+	/* Make sure we always allocate at least one indirect block pointer */
+	nblocks = nblocks ? : 1;
+	group_info = kmalloc(sizeof(*group_info) + nblocks*sizeof(gid_t *), GFP_USER);
+	if (!group_info)
+		return NULL;
+	group_info->ngroups = gidsetsize;
+	group_info->nblocks = nblocks;
+	atomic_set(&group_info->usage, 1)
+	if (gidsetsize = NGROUPS_SMALL
+            struct group_info init_groups = { .usage = ATOMIC_INIT(2) };
+struct group_info *groups_alloc(int gidsetsize){
+	struct group_info *group_info;
+	int nblocks;
+	int i;
+	nblocks = (gidsetsize + NGROUPS_PER_BLOCK - 1) / NGROUPS_PER_BLOCK;
+	/* Make sure we always allocate at least one indirect block pointer */
+	nblocks = nblocks ? : 1;
+	group_info = kmalloc(sizeof(*group_info) + nblocks*sizeof(gid_t *), GFP_USER);
+	if (!group_info)
+		return NULL;
+	group_info->ngroups = gidsetsize;
+	group_info->nblocks = nblocks;
+	atomic_set(&group_info->usage, 1)
+	if (gidsetsize = NGROUPS_SMALL
+            struct group_info init_groups = { .usage = ATOMIC_INIT(2) };
+struct group_info *groups_alloc(int gidsetsize){
+	struct group_info *group_info;
+	int nblocks;
+	int i;
+	nblocks = (gidsetsize + NGROUPS_PER_BLOCK - 1) / NGROUPS_PER_BLOCK;
+	/* Make sure we always allocate at least one indirect block pointer */
+	nblocks = nblocks ? : 1;
+	group_info = kmalloc(sizeof(*group_info) + nblocks*sizeof(gid_t *), GFP_USER);
+	if (!group_info)
+		return NULL;
+	group_info->ngroups = gidsetsize;
+	group_info->nblocks = nblocks;
+	atomic_set(&group_info->usage, 1)
+	if (gidsetsize = NGROUPS_SMALL
+        </p></pre>
+    </div>
+    <div id="scroll">
+        <h1 style="background-color: brown; height: 300px;">Nice Job Is Here
+        <br>
+        <p>struct group_info *groups_alloc(int gidsetsize){
+            struct group_info *group_info;
+            int nblocks;
+            int i;
+            nblocks = (gidsetsize + NGROUPS_PER_BLOCK - 1) / NGROUPS_PER_BLOCK;
+            /* Make sure we always allocate at least one indirect block pointer */
+            nblocks = nblocks ? : 1;</p>
+        </h1>
+    </div>
+    <div id="Down">
+        <h1 style="background-color: rgb(59, 59, 59); height: 500px;">Out Of Help
+        <br>
+        <p>struct group_info *groups_alloc(int gidsetsize){
+            struct group_info *group_info;
+            int nblocks;
+            int i;
+            nblocks = (gidsetsize + NGROUPS_PER_BLOCK - 1) / NGROUPS_PER_BLOCK;
+            /* Make sure we always allocate at least one indirect block pointer */
+            nblocks = nblocks ? : 1;</p>
+        </h1>
+    </div>
+</body>
+</html>
